@@ -1,0 +1,64 @@
+
+[
+    {
+        "id": 1,
+        "cover": "coverImg1",
+        "image": "assets/svgs/logoBlack.svg"
+    },
+    {
+        "id": 2,
+        "cover": "coverImg2",
+        "image": "assets/svgs/logoBlue.svg"
+    },
+    {
+        "id": 3,
+        "cover": "coverImg3",
+        "image": "assets/svgs/logoCyan.svg"
+    },
+    {
+        "id": 4,
+        "cover": "coverImg4",
+        "image": "assets/svgs/logoGreen.svg"
+    },
+    {
+        "id": 5,
+        "cover": "coverImg5",
+        "image": "assets/svgs/logoGrey.svg"
+    },
+    {
+        "id": 6,
+        "cover": "coverImg6",
+        "image": "assets/svgs/logoLime.svg"
+    },
+    {
+        "id": 7,
+        "cover": "coverImg7",
+        "image": "assets/svgs/logoLtGrey.svg"
+    },
+    {
+        "id": 8,
+        "cover": "coverImg8",
+        "image": "assets/svgs/logoOrange.svg"
+    },
+    {
+        "id": 9,
+        "cover": "coverImg9",
+        "image": "assets/svgs/logoPink.svg"
+    },
+    {
+        "id": 10,
+        "cover": "coverImg10",
+        "image": "assets/svgs/logoPurple.svg"
+    },
+    {
+        "id": 11,
+        "cover": "coverImg11",
+        "image": "assets/svgs/logoRed.svg"
+    },
+    {
+        "id": 12,
+        "cover": "coverImg12",
+        "image": "assets/svgs/logoYellow.svg"
+    }
+]
+
