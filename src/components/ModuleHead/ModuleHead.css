@@ -2,7 +2,7 @@
 .App-header {
     position: relative;
     width: 72%;
-    height: 10rem;
+    height: 8rem;
     background-color: #222222;
     font-size: 2rem;
     color: #2a77ae;
@@ -25,14 +25,7 @@
     width: 40%;
 }
 
-.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 96px;
-}
-
 .App-title {
-    position: relative;
-    top: -32px;
     font-size: 2.5rem;
 }
 
@@ -105,10 +98,6 @@ p {
     }
     p {
         margin: 48% auto;
-    }
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-        height: 64px;
     }
 }
 

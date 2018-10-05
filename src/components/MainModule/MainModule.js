@@ -35,7 +35,6 @@ class MainModule extends React.Component {
             <div className="App">
                 <ModuleHead
                     count={this.state.logos.length}
-                    // totalCount={this.state.totalCount}
                 />
                 <Wrapper>
                     <TableHead />

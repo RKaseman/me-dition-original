@@ -2,13 +2,13 @@
 [
     {
         "id": 1,
-        "cover": "coverImg1",
-        "title": "[Title]",
-        "author": "[Author]",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51br9cDPkNL._SX331_BO1,204,203,200_.jpg",
+        "title": "[Global Brain]",
+        "author": "[Howard Bloom]",
         "published": "[Published Year]",
         "kindle": "[Kindle Year]",
-        "series": "[Series]",
-        "number": "[Series #]",
+        "series": "[-]",
+        "number": "[-]",
         "image": "assets/svgs/logoBlack.svg"
     },
     {
