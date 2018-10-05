@@ -3,23 +3,23 @@
     {
         "id": 1,
         "cover": "https://images-na.ssl-images-amazon.com/images/I/51br9cDPkNL._SX331_BO1,204,203,200_.jpg",
-        "title": "[Global Brain]",
-        "author": "[Howard Bloom]",
-        "published": "[Published Year]",
-        "kindle": "[Kindle Year]",
-        "series": "[-]",
-        "number": "[-]",
+        "title": "Global Brain",
+        "author": "Howard Bloom",
+        "published": "August 1, 2001",
+        "kindle": "April 21, 2008",
+        "series": "",
+        "number": "",
         "image": "assets/svgs/logoBlack.svg"
     },
     {
         "id": 2,
-        "cover": "coverImg2",
-        "title": "[Title]",
-        "author": "[Author]",
-        "published": "[Published Year]",
-        "kindle": "[Kindle Year]",
-        "series": "[Series]",
-        "number": "[Series #]",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41M9scXUiGL.jpg",
+        "title": "Delusions of Gender: How Our Minds, Society, and Neurosexism Create Difference",
+        "author": "Cordelia Fine",
+        "published": "August 8, 2011 (reprint)",
+        "kindle": "August 8, 2011",
+        "series": "",
+        "number": "",
         "image": "assets/svgs/logoBlue.svg"
     },
     {
@@ -30,7 +30,7 @@
         "published": "[Published Year]",
         "kindle": "[Kindle Year]",
         "series": "[Series]",
-        "number": "[Series #]",
+        "number": "[1]",
         "image": "assets/svgs/logoCyan.svg"
     },
     {

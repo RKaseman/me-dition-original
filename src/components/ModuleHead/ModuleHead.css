@@ -1,14 +1,14 @@
 
 .App-header {
     position: relative;
-    width: 72%;
+    width: 64%;
     height: 8rem;
     background-color: #222222;
     font-size: 2rem;
     color: #2a77ae;
     text-shadow: 2px 1px 4px #000022;
     margin: 0px auto;
-    padding: 16px;
+    padding: 8px;
 }
 
 .flex-container {

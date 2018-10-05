@@ -1,13 +1,11 @@
 
-table {
-    border: 1px solid #ff0000;
-}
-
 .table {
-    width: 96%;
+    width: 100%;
     background: #dddddd;
     color: #000000;
-    box-shadow: 6px 6px 2px 0px #666666, 0px 0px 1px 0px #222222;
+    border: 1px solid #4444aa;
+    border-spacing: 0px;
+    /* box-shadow: 6px 6px 2px 0px #666666, 0px 0px 1px 0px #222222; */
 }
 
 .App-card {

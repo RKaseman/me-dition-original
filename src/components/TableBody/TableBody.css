@@ -7,9 +7,14 @@ tr {
     height: 32px;
 }
 
+th {
+    height: 64px;
+    border: 1px solid #bbbbdd;
+}
+
 td {
     width: 20%;
-    border: 1px solid #ff0000;
+    border: 1px solid #bbbbdd;
 }
 
 .bookCover {

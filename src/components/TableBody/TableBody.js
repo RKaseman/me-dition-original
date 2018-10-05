@@ -7,7 +7,7 @@ const TableBody = (props) => {
         <table className="table">
             <thead>
                 <tr>
-                    <th>
+                    <th colSpan="5">
                         {props.title}
                     </th>
                 </tr>
@@ -25,15 +25,13 @@ const TableBody = (props) => {
                         {props.author}
                     </td>
                     <td>
-                        {props.series}
+                        {props.published}
                     </td>
                     <td>
-                        <img
-                        className="App-card"
-                        src={props.image}
-                        onClick={() => props.gameStatus(props.id)}
-                        alt=""
-                        />
+                        {props.kindle}
+                    </td>
+                    <td>
+                        {props.series} {props.number}
                     </td>
                 </tr>
             </tbody>

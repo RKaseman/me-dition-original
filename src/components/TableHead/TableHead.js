@@ -7,7 +7,7 @@ const TableHead = (props) => {
         <table className="table">
             <thead>
                 <tr>
-                    <th colSpan="4">
+                    <th colSpan="5">
                         TableHead.js thead
                     </th>
                 </tr>
@@ -25,14 +25,17 @@ const TableHead = (props) => {
                     <td>
                         sort by
                         <br />
-                        series
+                        year
                     </td>
                     <td>
-                        <img
-                        className="App-card"
-                        src={props.image}
-                        onClick={() => props.gameStatus(props.id)}
-                        alt="" />
+                        sort by
+                        <br />
+                        eBook year
+                    </td>
+                    <td>
+                        sort by
+                        <br />
+                        series
                     </td>
                 </tr>
             </tbody>
