@@ -1,17 +1,15 @@
 
 import React from "react";
 import "./MainModule.css";
-import ModuleContent from "../ModuleContent";
 import ModuleHead from "../ModuleHead";
+import TableHead from "../TableHead";
+import TableBody from "../TableBody";
 import Wrapper from "../Wrapper";
 import logos from "../../logos.json";
 
 class MainModule extends React.Component {
     state = {
-        logos: logos,
-        count: 0,
-        totalCount: 0,
-        clicked: []
+        logos: logos
     };
 
     gameState = (id) => {
@@ -28,7 +26,6 @@ class MainModule extends React.Component {
                 count: this.state.count + 1,
                 totalCount: this.state.totalCount + 1,
                 clicked: id
-                // clicked: [...this.state.clicked, id]
             });
         }
     };
@@ -37,17 +34,23 @@ class MainModule extends React.Component {
         return (
             <div className="App">
                 <ModuleHead
-                    count={this.state.count}
+                    count={this.state.logos.length}
                     // totalCount={this.state.totalCount}
                 />
                 <Wrapper>
+                    <TableHead />
                     {this.state.logos.map(logo => (
-                        <ModuleContent
+                        <TableBody
                             key={logo.id}
                             id={logo.id}
-                            image={logo.image}
                             cover={logo.cover}
-                            // gameStatus={this.gameState}
+                            title={logo.title}
+                            author={logo.author}
+                            published={logo.published}
+                            kindle={logo.kindle}
+                            series={logo.series}
+                            number={logo.number}
+                            image={logo.image}
                         />
                     ))}
                 </Wrapper>

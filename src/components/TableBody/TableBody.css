@@ -1,10 +1,10 @@
 
 .table {
-    position: relative;
+    /* position: relative; */
     width: 256px;
     background: #dddddd;
     color: #000000;
-    margin: 1.5rem 1.0rem;
+    /* margin: 1.5rem 1.0rem; */
     box-shadow: 6px 6px 2px 0px #666666, 0px 0px 1px 0px #222222;
 }
 
@@ -17,7 +17,7 @@ table, td {
 }
 
 td {
-    width: 32%;
+    width: 20%;
 }
 
 @keyframes App-card-spin {

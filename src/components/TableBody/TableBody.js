@@ -1,17 +1,20 @@
 
 import React from "react";
-import "./ModuleContent.css";
+import "./TableBody.css";
 
-const ModuleContent = (props) => {
+const TableBody = (props) => {
     return (
-        <table className="table">
-            <thead>thead</thead>
+        // <table className="table">
+            // <thead>thead</thead>
             <tr>
                 <td>
                     {props.cover}
                 </td>
                 <td>
                     {props.id}
+                </td>
+                <td>
+                    {props.cover}
                 </td>
                 <td>
                     <img
@@ -21,9 +24,9 @@ const ModuleContent = (props) => {
                     alt="" />
                 </td>
             </tr>
-        </table>
+        // </table>
     );
 };
 
-export default ModuleContent;
+export default TableBody;
 
