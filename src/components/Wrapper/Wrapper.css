@@ -12,3 +12,12 @@
     padding: 8px;
 }
 
+/* Media Queries */
+
+@media only screen and (max-width: 320px) {
+    .wrapper {
+        width: 96%;
+        /* margin: 2px; */
+    }
+}
+

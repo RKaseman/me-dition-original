@@ -1,8 +1,4 @@
 
-.App-card {
-    animation: App-card-spin infinite 20s linear;
-}
-
 tr {
     height: 32px;
 }
@@ -19,14 +15,5 @@ td {
 
 .bookCover {
     max-height: 24%;
-}
-
-@keyframes App-card-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
 

@@ -38,15 +38,6 @@ p {
     margin: 2.5rem auto;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
 /* Media Queries */
 
 @media only screen and (max-width: 980px) {
@@ -90,6 +81,7 @@ p {
 
 @media only screen and (max-width: 320px) {
     .App-header {
+        width:96%;
         font-size: 1.0rem;
     }
     .App-title {

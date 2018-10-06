@@ -2,6 +2,7 @@
 import React from "react";
 import "./MainModule.css";
 import ModuleHead from "../ModuleHead";
+import Search from "../Search";
 import TableHead from "../TableHead";
 import TableBody from "../TableBody";
 import Wrapper from "../Wrapper";
@@ -23,9 +24,6 @@ class MainModule extends React.Component {
             } else {
             this.setState({
                 logos: logos,
-                count: this.state.count + 1,
-                totalCount: this.state.totalCount + 1,
-                clicked: id
             });
         }
     };
@@ -36,6 +34,9 @@ class MainModule extends React.Component {
                 <ModuleHead
                     count={this.state.logos.length}
                 />
+                <Wrapper>
+                <Search />
+                </Wrapper>
                 <Wrapper>
                     <TableHead />
                     {this.state.logos.map(logo => (
