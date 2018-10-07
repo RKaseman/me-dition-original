@@ -45,12 +45,12 @@ class MainModule extends React.Component {
                             id={logo.id}
                             cover={logo.cover}
                             title={logo.title}
+                            subtitle={logo.subtitle}
                             author={logo.author}
                             published={logo.published}
                             kindle={logo.kindle}
                             series={logo.series}
                             number={logo.number}
-                            image={logo.image}
                         />
                     ))}
                 </Wrapper>

@@ -8,7 +8,7 @@ const ModuleHead = (props) => {
         <header className="App-header flex-container">
             <div className="headerLeft">
                 <p>
-                    Scan a book
+                    Add a book
                 </p>
             </div>
             <div className="headerMiddle">

@@ -8,15 +8,12 @@ const TableHead = (props) => {
             <thead>
                 <tr>
                     <th colSpan="5">
-                        TableHead.js thead
+                        TableHead.js
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        *
-                    </td>
                     <td>
                         sort by
                         <br />
@@ -36,6 +33,9 @@ const TableHead = (props) => {
                         sort by
                         <br />
                         series
+                    </td>
+                    <td>
+                        *
                     </td>
                 </tr>
             </tbody>

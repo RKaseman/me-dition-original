@@ -10,17 +10,13 @@ const Search = (props) => {
                     <th colSpan="5">
                         Search.js
                         <br />
+                        <button>add</button>
                         <input type="text" placeholder="search..." id="myInput" />
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        reset
-                        <br />
-                        search
-                    </td>
                     <td>
                         search by
                         <br />
@@ -40,6 +36,11 @@ const Search = (props) => {
                         search by
                         <br />
                         series
+                    </td>
+                    <td>
+                        reset
+                        <br />
+                        search
                     </td>
                 </tr>
             </tbody>

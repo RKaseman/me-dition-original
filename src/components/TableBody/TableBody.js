@@ -8,19 +8,17 @@ const TableBody = (props) => {
             <thead>
                 <tr>
                     <th colSpan="5">
-                        {props.title}
+                    <img
+                        className="bookCover"
+                        src={props.cover}
+                        alt=""
+                    />
+                    {props.title}
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        <img
-                        className="bookCover"
-                        src={props.cover}
-                        alt=""
-                        />
-                    </td>
                     <td>
                         {props.author}
                     </td>
@@ -32,6 +30,9 @@ const TableBody = (props) => {
                     </td>
                     <td>
                         {props.series} {props.number}
+                    </td>
+                    <td>
+                        [ ]
                     </td>
                 </tr>
             </tbody>
