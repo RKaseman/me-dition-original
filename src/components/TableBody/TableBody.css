@@ -6,6 +6,7 @@ tr {
 th {
     height: 72px;
     background-color: #dddddd;
+    text-align: left;
     border: 1px solid #9999bb;
 }
 

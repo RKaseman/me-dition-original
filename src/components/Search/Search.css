@@ -26,7 +26,9 @@
     border: 2px solid #4444aa;
 }
 
-#myInput:focus {outline: 3px solid #dddddd;}
+#myInput:focus {
+    outline: 1px solid #dddddd;
+}
 
 .dropdown {
     position: relative;
@@ -50,9 +52,13 @@
     display: block;
 }
 
-.dropdown a:hover {background-color: #dddddd;}
+.dropdown a:hover {
+    background-color: #dddddd;
+}
 
-.show {display: block;}
+.show {
+    display: block;
+}
 
 /* Media Queries */
 
